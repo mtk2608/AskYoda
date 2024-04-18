@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AskYoda.View.AnswerView"
+             BackgroundImageSource="galaxy.jpg">
+    <VerticalStackLayout>
+        <Label Text="Ask Yoda"
+               FontSize="Large"
+               TextColor="White"/>
+
+        <Image Source="yoda.png"
+               HeightRequest="100"
+               WidthRequest="100"/>
+
+        <Button Text="Fun Fact"
+                FontAttributes="Bold"
+                TextColor="White"
+                FontFamily="Insanibu.tff"/>
+    </VerticalStackLayout>
+</ContentPage>

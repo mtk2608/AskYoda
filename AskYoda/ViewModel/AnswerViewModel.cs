@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AskYoda.Services.Interfaces
+namespace AskYoda.ViewModel
 {
-    internal class AiAssistant
+    internal class AnswerViewModel
     {
     }
 }
